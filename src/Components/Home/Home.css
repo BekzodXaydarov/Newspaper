@@ -1,0 +1,10 @@
+.home {
+  width: 100%;
+  margin: 40px;
+}
+.card_warpper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
